@@ -148,6 +148,7 @@ return {
           },
         },
       },
+      cssls = {},
     },
     setup = {
       tailwindcss = function(_, opts)
@@ -239,7 +240,7 @@ return {
         end, "vtsls")
         -- copy typescript settings to javascript
         opts.settings.javascript =
-          vim.tbl_deep_extend("force", {}, opts.settings.typescript, opts.settings.javascript or {})
+            vim.tbl_deep_extend("force", {}, opts.settings.typescript, opts.settings.javascript or {})
       end,
     },
   },

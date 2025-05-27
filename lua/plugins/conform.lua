@@ -5,7 +5,8 @@ return {
     formatters_by_ft = {
       ruby = { formatter },
       eruby = { "erb_format" },
-      html = { "prettier" }
+      html = { "prettier" },
+      css = { "prettier" },
     },
   },
 }
