@@ -4,6 +4,7 @@ return {
   opts = function(_, opts)
     opts.linters_by_ft = {
       elixir = { "credo" },
+      cmake = { "cmakelint" },
     }
 
     opts.linters = {

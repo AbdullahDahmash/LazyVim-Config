@@ -2,6 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      neocmake = {},
       ruby_lsp = {
         enabled = lsp == "ruby_lsp",
       },
