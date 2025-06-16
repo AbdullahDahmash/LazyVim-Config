@@ -7,6 +7,7 @@ return {
       eruby = { "erb_format" },
       html = { "prettier" },
       css = { "prettier" },
+      go = { "goimports", "gofumpt" },
     },
   },
 }

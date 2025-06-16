@@ -9,6 +9,14 @@ return {
       end,
     },
     {
+      "mason-org/mason.nvim",
+      opts = { ensure_installed = { "delve" } },
+    },
+    {
+      "leoluz/nvim-dap-go",
+      opts = {},
+    },
+    {
       "williamboman/mason.nvim",
       opts = function(_, opts)
         opts.ensure_installed = opts.ensure_installed or {}
