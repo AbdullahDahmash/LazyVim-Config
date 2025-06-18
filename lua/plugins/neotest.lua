@@ -7,6 +7,7 @@ return {
   },
   opts = {
     adapters = {
+      ["rustaceanvim.neotest"] = {},
       ["neotest-golang"] = {
         -- Here we can set options for neotest-golang, e.g.
         -- go_test_args = { "-v", "-race", "-count=1", "-timeout=60s" },
