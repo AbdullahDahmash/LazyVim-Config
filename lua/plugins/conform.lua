@@ -8,6 +8,7 @@ return {
       html = { "prettier" },
       css = { "prettier" },
       go = { "goimports", "gofumpt" },
+      templ = { "templ" },
     },
   },
 }

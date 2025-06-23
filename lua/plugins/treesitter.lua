@@ -29,6 +29,7 @@ return {
         "gosum",
         "rust",
         "ron",
+        "templ",
       }
       vim.list_extend(opts.ensure_installed, { "elixir", "heex", "eex", "glimmer" })
       vim.treesitter.language.register("markdown", "livebook")

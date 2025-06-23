@@ -2,6 +2,14 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      templ = {
+        filetypes = { "templ" },
+        settings = {
+          templ = {
+            enable_snippets = true,
+          },
+        },
+      },
       bacon_ls = {
         enabled = diagnostics == "bacon-ls",
       },
